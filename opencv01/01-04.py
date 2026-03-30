@@ -1,0 +1,15 @@
+import cv2
+import numpy as np
+
+# 흰색 배경 생성 (512x512)
+canvas = np.full((512, 512, 3), 255, dtype=np.uint8)
+
+# 그리기
+cv2.line(canvas, (50, 480), (450, 480), (255, 0, 0), 5) # 파란 선
+cv2.rectangle(canvas, (300, 200), (200, 400), (0, 255, 0), -1) # 초록 꽉 찬 사각형
+cv2.circle(canvas, (110, 120), 100, (0, 0, 255), 3) # 빨간 원
+cv2.circle(canvas, (402, 120), 100, (0, 0, 255), 3)
+
+cv2.imshow('Canvas', canvas)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
