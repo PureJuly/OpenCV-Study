@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread(r'C:\Python-OpenCV\lena.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread(r'/pictures/lena.jpg', cv2.IMREAD_GRAYSCALE)
 
 # dx=1, dy=0: 수직 에지 검출
 sobel_x = cv2.Sobel(img, -1, 1, 0, ksize=3)

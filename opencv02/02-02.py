@@ -1,7 +1,7 @@
 import cv2
 
-src1 = cv2.imread(r"C:\Python-OpenCV\lena.jpg")
-src2 = cv2.imread(r"C:\Python-OpenCV\lena.jpg")
+src1 = cv2.imread(r"/pictures/lena.jpg")
+src2 = cv2.imread(r"/pictures/lena.jpg")
 
 dst = cv2.addWeighted(src1, 0.3, src2, 0.6, 0)
 

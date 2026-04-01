@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread(r"C:\Python-OpenCV\lena.jpg")
+img = cv2.imread(r"/pictures/lena.jpg")
 rows, cols, channels = img.shape
 
 pts1 = np.float32([[200, 100], [400, 100], [200, 200]])

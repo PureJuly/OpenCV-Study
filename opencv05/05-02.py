@@ -1,6 +1,6 @@
 import cv2
 
-src = cv2.imread(r'C:\Python-OpenCV\lena.jpg', cv2.IMREAD_GRAYSCALE)
+src = cv2.imread(r'/pictures/lena.jpg', cv2.IMREAD_GRAYSCALE)
 dst = cv2.equalizeHist(src) # 그레이스케일 영상 전용
 
 cv2.imshow('Source', src)

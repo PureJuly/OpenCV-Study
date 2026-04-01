@@ -2,7 +2,7 @@ import cv2
 import sys
 
 cap = cv2.VideoCapture(0)
-sticker = cv2.imread(r"C:\Python-OpenCV\tigermask.png", cv2.IMREAD_UNCHANGED)
+sticker = cv2.imread(r"/pictures/tigermask.png", cv2.IMREAD_UNCHANGED)
 
 face_cascade = cv2.CascadeClassifier(
     cv2.data.haarcascades + 'haarcascade_frontalface_default.xml'

@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread(r'C:\Python-OpenCV\italy_1vd1oaqnpq97q1hqu2xnsvbrbc.jpg')
+img = cv2.imread(r'/pictures/italy_1vd1oaqnpq97q1hqu2xnsvbrbc.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')

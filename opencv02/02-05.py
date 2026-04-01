@@ -1,8 +1,8 @@
 import cv2
 
-cats = cv2.imread(r"C:\Python-OpenCV\catandcat.jpg")
+cats = cv2.imread(r"/pictures/catandcat.jpg")
 cats = cv2.resize(cats, (512, 288))
-woman = cv2.imread(r"C:\Python-OpenCV\lena_copy.jpg")
+woman = cv2.imread(r"/pictures/lena_copy.jpg")
 
 green_mask = cv2.inRange(cats, (0, 120, 0), (100, 255, 100))
 reverse_mask = cv2.bitwise_not(green_mask)

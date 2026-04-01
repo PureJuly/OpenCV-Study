@@ -24,7 +24,7 @@ model = load_model(
 class_names = open("C:\Python-OpenCV\converted_keras\labels.txt", "r").readlines()
 
 # Grab the webcamera's image.
-image = cv2.imread("C:\Python-OpenCV\hot1765421488553.jpg")
+image = cv2.imread("/pictures/hot1765421488553.jpg")
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 frame = image.copy()
 # Resize the raw image into (224-height,224-width) pixels

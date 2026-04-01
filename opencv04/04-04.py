@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 
-src = cv2.imread('C:\Python-OpenCV\shape.png')
+src = cv2.imread('/pictures/shape.png')
 gray = cv2.cvtColor(src,cv2.COLOR_BGR2GRAY)
 circles1 = cv2.HoughCircles(gray, dp=1, minDist=50, param2=15)
 

@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread(r"C:\Python-OpenCV\lena.jpg", cv2.IMREAD_COLOR)
+img = cv2.imread(r"/pictures/lena.jpg", cv2.IMREAD_COLOR)
 
 dst1 = cv2.Canny(img, 50, 100)
 dst2 = cv2.Canny(img, 50, 200)

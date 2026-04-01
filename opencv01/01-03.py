@@ -1,7 +1,7 @@
 import cv2
 import sys
 
-img = cv2.imread(r'C:\Python-OpenCV\lena.jpg')
+img = cv2.imread(r'/pictures/lena.jpg')
 
 if img is None:
     print("이미지를 찾을 수 없습니다.")

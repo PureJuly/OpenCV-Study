@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread(r"C:\Python-OpenCV\lena.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread(r"/pictures/lena.jpg", cv2.IMREAD_GRAYSCALE)
 edges = cv2.Canny(img, 50, 100)
 
 # Canny 에지 이미지에서 직선 검출

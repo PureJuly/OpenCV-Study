@@ -2,7 +2,7 @@ import cv2
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
-tiger = cv2.imread(r"C:\Python-OpenCV\tigermask.png", cv2.IMREAD_UNCHANGED)
+tiger = cv2.imread(r"/pictures/tigermask.png", cv2.IMREAD_UNCHANGED)
 orig_h, orig_w = tiger.shape[:2]
 
 cap = cv2.VideoCapture(0)

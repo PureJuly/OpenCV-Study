@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-src = cv2.imread(r'C:\Python-OpenCV\lena.jpg')
+src = cv2.imread(r'/pictures/lena.jpg')
 hsv = cv2.cvtColor(src, cv2.COLOR_BGR2HSV)
 
 # 빨간색 추출 예시 (H: 0~10 or 170~180)

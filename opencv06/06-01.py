@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread(r'C:\Python-OpenCV\lena.jpg')
+img = cv2.imread(r'/pictures/lena.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 template = gray[250:290, 250:350]

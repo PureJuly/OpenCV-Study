@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-src = cv2.imread(r"C:\Python-OpenCV\lena.jpg")
+src = cv2.imread(r"/pictures/lena.jpg")
 val = 100
 
 dst1 = cv2.add(src, (val, val, val, 0))

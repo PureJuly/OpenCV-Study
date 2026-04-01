@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread(r"C:\Python-OpenCV\morphology.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread(r"/pictures/morphology.jpg", cv2.IMREAD_GRAYSCALE)
 
 kernel = np.ones((5, 5), np.uint8)
 

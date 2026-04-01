@@ -1,6 +1,6 @@
 import cv2
 
-src = cv2.imread(r"C:\Python-OpenCV\shape.png")
+src = cv2.imread(r"/pictures/shape.png")
 gray = cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
 _, thresh =  cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY_INV)
 

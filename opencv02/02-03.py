@@ -1,7 +1,7 @@
 import cv2
 from numpy.ma.extras import dstack
 
-src1 = cv2.imread(r"C:\Python-OpenCV\lena.jpg", cv2.IMREAD_GRAYSCALE)
+src1 = cv2.imread(r"/pictures/lena.jpg", cv2.IMREAD_GRAYSCALE)
 
 # 임계점
 ret, src2 = cv2.threshold(src1, 160, 255, cv2.THRESH_BINARY)

@@ -5,7 +5,7 @@ def mouse_callback(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONDOWN:
         print("왼쪽 버튼 클릭:", x, y)
 
-img = cv2.imread(r'C:\Python-OpenCV\lena.jpg')
+img = cv2.imread(r'/pictures/lena.jpg')
 
 if img is None:
     print("이미지를 찾을 수 없습니다.")

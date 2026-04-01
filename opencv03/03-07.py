@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread(r"C:\Python-OpenCV\tilted_book.png")
+img = cv2.imread(r"/pictures/tilted_book.png")
 
 pts1 = np.float32([[101, 261], [271, 1258], [660, 97], [1160, 869]])
 pts2 = np.float32([[0, 0], [0, 4000], [3000, 0], [3000, 4000]])
